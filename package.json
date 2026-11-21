@@ -1,0 +1,34 @@
+{
+  "name": "erc8098-reference",
+  "version": "1.0.0",
+  "description": "Standalone reference candidate implementation for the ERC-8098 non-increasing supply ERC-20 draft.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:conformance": "hardhat test test/ERC8098Reference.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ten-io-meta/erc8098-reference.git"
+  },
+  "keywords": [
+    "erc8098",
+    "erc20",
+    "monotonic-supply",
+    "irreversible-burn",
+    "ethereum"
+  ],
+  "author": "TEN.IO Meta",
+  "license": "MIT",
+  "homepage": "https://github.com/ten-io-meta/erc8098-reference",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^4.5.0",
+    "ethers": "^5.8.0",
+    "hardhat": "2.22.19"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6"
+  }
+}
